@@ -15,7 +15,7 @@
     "comparison",
     "partial"
   ],
-  "dependencies": {
+  "devDependencies": {
     "mocha": "~1.18.0"
   },
   "author": "Roman Shtylman <shtylman@gmail.com>",
