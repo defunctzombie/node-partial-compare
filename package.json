@@ -1,0 +1,19 @@
+{
+  "name": "partial-compare",
+  "version": "0.0.0",
+  "description": "deep partial comparison of objects",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --ui qunit --reporter list -- test.js"
+  },
+  "keywords": [
+    "deep",
+    "comparison",
+    "partial"
+  ],
+  "dependencies": {
+    "mocha": "~1.18.0"
+  },
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT"
+}
