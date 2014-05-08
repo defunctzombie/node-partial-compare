@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha --ui qunit --reporter list -- test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defunctzombie/node-partial-compare.git"
+  },
   "keywords": [
     "deep",
     "comparison",
