@@ -1,6 +1,6 @@
 {
   "name": "partial-compare",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "deep partial comparison of objects",
   "main": "./index.js",
   "scripts": {
