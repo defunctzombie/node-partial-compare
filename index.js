@@ -2,6 +2,10 @@ function match(haystack, filter) {
     if (!filter) {
         return true;
     }
+    
+    if (!haystack) {
+        return false;
+    }
 
     return Object.keys(filter).every(function(key) {
         var val = filter[key];
