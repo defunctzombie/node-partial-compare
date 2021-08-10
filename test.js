@@ -21,3 +21,6 @@ test('nested invalid', function() {
     assert.ok(!match({ foo: { baz: 'bar' }, quux: 'kill me'}, { foo: { baz: 'baz' }}));
 });
 
+test('handle NaN', function() {
+    assert.ok(match({ foo: NaN }, { foo: NaN }))
+});
